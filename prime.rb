@@ -1,14 +1,7 @@
 
 
 def prime(number)
-  if !number.integer?
-    false
-  elsif   number < 2
-   false
-  elsif  (2..number-1).each {|int|
-   return false if number % int == 0 }
-  
-  
+ 
   return false if !number.integer?
   
   return false if number < 2
