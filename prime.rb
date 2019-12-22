@@ -1,7 +1,8 @@
 
 
 def prime(number)
-  if number % 1 ==
+  if number % 1 == 0 
+    r
   
   
   
