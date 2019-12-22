@@ -1,7 +1,7 @@
 
 
-def prime(number)
- na << (2..number-1).to_a
+def prime?(number)
+ 
   return false if !number.integer?
   
   return false if number < 2
