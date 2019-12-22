@@ -5,7 +5,8 @@ def prime(number)
     false
   elsif   number < 2
    false
-  elsif  
+  elsif  (2..number-1).each {|int|
+   return false if number % int == 0 }
   
   
   return false if !number.integer?
@@ -14,7 +15,7 @@ def prime(number)
 
   return true if number == 2
   
-  (2..number-1).each {|int|
+  [2..number-1].each {|int|
    return false if number % int == 0 }
   
   true
