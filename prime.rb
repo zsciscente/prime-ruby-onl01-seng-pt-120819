@@ -1,7 +1,7 @@
 
 
 def prime(number)
-  return false if 
+  return false if number.interger?
   
   
   
