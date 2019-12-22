@@ -11,6 +11,6 @@ def prime(number)
   na.each {|int|
    return false if number % int == 0 }
   
-  return true
+  true
 
 end
