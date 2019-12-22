@@ -8,7 +8,7 @@ def prime?(number)
 
   return true if number == 2
   
-  na.each {|int|
+  .each {|int|
    return false if number % int == 0 }
   
   true
