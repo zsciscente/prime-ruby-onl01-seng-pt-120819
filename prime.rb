@@ -3,8 +3,9 @@
 def prime(number)
   if !number.integer?
     false
-  elsif   
-  
+  elsif   number < 2
+   false
+  elsif  
   
   
   return false if !number.integer?
