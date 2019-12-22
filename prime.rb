@@ -11,15 +11,7 @@ def prime(number)
   
   
  (2..number-1).each {|int|
- 
- 
- 
-  na.any? { |n|
-    if number % n == 0 
-      false
-    else
-      true
-    end                }
- 
+ return false if number % n == 0 
+    
 
 end
