@@ -1,8 +1,9 @@
 
 
 def prime(number)
-  if 
-  
+  if !number.integer?
+    false
+  elsif   
   
   
   
