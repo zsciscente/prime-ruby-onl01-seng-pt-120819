@@ -10,7 +10,8 @@ def prime(number)
   
   
   
- na = [] << (2..number-1).to_a
+ (2..number-1).each {|int|
+ 
  
  
   na.any? { |n|
