@@ -1,6 +1,11 @@
 
 
 def prime(number)
+  if 
+  
+  
+  
+  
   return false if !number.integer?
   
   return false if number < 2
